@@ -1,0 +1,29 @@
+{
+    "name": "vertex/vcob",
+    "description": "Sistema de gerenciamento de cobranças Vertex",
+    "homepage": "https://vcob.sistemasvertex.com.br",
+    "version": "1.0.0-alpha.1",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "carlosroberto555/html-pdf": "^0.2.2",
+        "carlosroberto555/expressphp": "dev-master",
+        "carlosroberto555/prop-types": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "VCob\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExpressPHP\\": "../expressphp/src",
+            "PropTypes\\": "../schema-validator/src",
+            "Volan\\Validator\\": "../schema-validator/src/Validator/"
+        }
+    },
+    "require-dev": {
+        "serkin/volan": "dev-master"
+    }
+}

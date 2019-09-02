@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="boletos/template.css">
+	<title>Carnê</title>
+</head>
+
+<body>
+	@each boletos
+	<table border="1" class="carneh">
+		<tr class="border">
+			<td class="recibo">
+				<table>
+					<tr class="header">
+						<th class="container-logo">
+							<img src="#logo#" class="logo">
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<p class="label">Nº documento</p>
+							<p class="value">#num_doc#</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="label">Vencimento</p>
+							<p class="value">#vencimento#</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="label">Valor a pagar</p>
+							<p class="value">R$ #valor#</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="label">Nº referência</p>
+							<p class="value">#num_referencia#</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p class="label">Sacado</p>
+							<p class="value">#sacado#</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="height: 21.2mm">
+							<p class="label">Endereço</p>
+							<p class="value">#endereco#</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="boleto">
+				<table border="0" class="header">
+					<tr>
+						<!-- <th>
+							<img src="#logo#" class="logo">
+						</th> -->
+						<!-- <th class="num-boleto">
+							<strong>#num_doc#</strong>
+						</th> -->
+						<th colspan="2" class="linha-digitavel" style="border-left: thin solid black">
+							<p>#linha_digitavel#</p>
+						</th>
+					</tr>
+				</table>
+
+				<table border="1" class="border">
+					<tr>
+						<td colspan="2">
+							<p class="label">Local de pagamento</p>
+							<p class="value">PAGÁVEL APENAS NAS AGÊNCIAS DOS CORREIOS</p>
+						</td>
+						<td class="container-emissao">
+							<p class="label">Emissão</p>
+							<p class="value">#data#</p>
+						</td>
+						<td class="right">
+							<p class="label">Vencimento</p>
+							<p class="value">#vencimento#</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<p class="label">Beneficiário</p>
+							<p class="value">#empresa#</p>
+						</td>
+						<td class="right">
+							<p class="label">Valor documento</p>
+							<p class="value">R$ #valor#</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="mensagem" rowspan="2" colspan="3">
+							<p class="value">#mensagem#</p>
+						</td>
+						<td class="right">
+							<p class="label">Nº documento</p>
+							<p class="value">#num_doc#</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="height: 19.35mm">
+							<p class="label">Sacado</p>
+							<p class="value">#sacado#</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="4">
+							<p class="label">Endereco</p>
+							<p class="value">#endereco#</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="4" class="barcode-container">
+							<!-- <p class="label">Sacador/Avalista</p> -->
+							#codigo#
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<div class="crop-line"></div>
+	@end
+</body>
+
+</html>

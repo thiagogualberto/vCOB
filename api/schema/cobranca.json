@@ -1,0 +1,15 @@
+{
+	"id_cliente": "number",
+	"dt_vencimento": "date",
+	"dt_pagamento": "date",
+	"vl_pago": "number",
+	"vl_emissao": "number",
+	"juros": {
+		"%": "number",
+		"dias": "number"
+	},
+	"multa": {
+		"%": "number",
+		"dias": "number"
+	}
+}

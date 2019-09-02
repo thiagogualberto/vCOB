@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="templates/retorno.css">
+	<title>Relatório Retorno</title>
+</head>
+<body>
+	<htmlpageheader name="header">
+		<table class="header">
+			<tr class="info">
+				<td colspan="1" class="text-left">
+					<img class="logo" src="#header_logo#">
+				</td>
+				<td colspan="6" class="text-right">
+					<p>#header_empresa#</p>
+					<p>CNPJ: #header_cnpj#</p>
+					<p>#header_email#</p>
+					<p>#header_tel#</p>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="7" class="title">
+					RELATÓRIO DE IMPORTAÇÃO DO ARQUIVO DE RETORNO
+				</th>
+			</tr>		
+		</table>
+	</htmlpageheader>
+	<sethtmlpageheader name="header" show-this-page="1" />
+
+	<table class="table table-striped relatorio">
+		<thead>
+			<tr style="background: #f2f2f2">
+				<th>Cliente</th>
+				<th>Cod. Cobrança</th>
+				<th>Valor Emissão</th>
+				<th>Vencimento</th>
+				<th>Pagamento</th>
+				<th>Valor Pago</th>
+			</tr>
+		</thead>
+		<tbody>
+			@each cobrancas
+			<tr>
+				<td class="text-left">#cliente#</td>
+				<td>#codigo#</td>
+				<td>#vl_emissao#</td>
+				<td>#vencimento#</td>
+				<td>#pagamento#</td>
+				<td>#vl_pagamento#</td>
+			</tr>
+			@end
+		</tbody>
+	</table>
+
+	<htmlpagefooter name="footer">
+		<table class="footer">
+			<tr>
+				<td>
+					<p>#address#</p>
+					<p>#cep# ‒ #city# ‒ #state#</p>
+				</td>
+				<td>
+					<p>Sistema VCob</p>
+					<p>Uma solução Vertex Tecnologia</p>
+				</td>
+				<td class="text-right">
+					<p>Página: {PAGENO} de {nbpg}</p>
+					<p>Emitido por #user# em {DATE d/m/Y à\s H:i}</p>
+				</td>
+			</tr>
+		</table>
+	</htmlpagefooter>
+	<sethtmlpagefooter name="footer" show-this-page="1"/>
+</body>
+</html>

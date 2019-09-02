@@ -1,0 +1,565 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3fffc004a0f696a3de392e474d71094a",
+    "packages": [
+        {
+            "name": "carlosroberto555/expressphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carlosroberto555/expressphp.git",
+                "reference": "74e2f04fc356ac4255523e4c02e2de613272a81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlosroberto555/expressphp/zipball/74e2f04fc356ac4255523e4c02e2de613272a81e",
+                "reference": "74e2f04fc356ac4255523e4c02e2de613272a81e",
+                "shasum": ""
+            },
+            "require": {
+                "katzien/php-mime-type": "^2.1",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExpressPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Roberto",
+                    "email": "carlosrpj555@gmail.com"
+                }
+            ],
+            "description": "Biblioteca para roteamento (Similar a ExpressJS)",
+            "time": "2018-02-27T19:14:25+00:00"
+        },
+        {
+            "name": "carlosroberto555/html-pdf",
+            "version": "v0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carlosroberto555/html-pdf.git",
+                "reference": "770a3b26b1b717a17d7fa2f588c50b52623eb2c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlosroberto555/html-pdf/zipball/770a3b26b1b717a17d7fa2f588c50b52623eb2c1",
+                "reference": "770a3b26b1b717a17d7fa2f588c50b52623eb2c1",
+                "shasum": ""
+            },
+            "require": {
+                "mpdf/mpdf": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HtmlPDF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Roberto",
+                    "email": "carlos.junior@vertexgroup.com.br"
+                }
+            ],
+            "description": "Create a PDF using an HTML file template",
+            "time": "2018-07-05T20:19:40+00:00"
+        },
+        {
+            "name": "carlosroberto555/prop-types",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carlosroberto555/prop-types.git",
+                "reference": "e6c12e964ed5c85d4c295bf5499dcad7d0d430f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlosroberto555/prop-types/zipball/e6c12e964ed5c85d4c295bf5499dcad7d0d430f6",
+                "reference": "e6c12e964ed5c85d4c295bf5499dcad7d0d430f6",
+                "shasum": ""
+            },
+            "require": {
+                "serkin/volan": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PropTypes\\": "src/",
+                    "Volan\\Validator\\": "src/Validator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Roberto",
+                    "email": "carlosrpj555@gmail.com"
+                }
+            ],
+            "description": "Lib for array types check",
+            "time": "2018-04-04T18:56:42+00:00"
+        },
+        {
+            "name": "katzien/php-mime-type",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/katzien/PhpMimeType.git",
+                "reference": "159dfbdcd5906442f3dad89951127f0b9dfa3b78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/katzien/PhpMimeType/zipball/159dfbdcd5906442f3dad89951127f0b9dfa3b78",
+                "reference": "159dfbdcd5906442f3dad89951127f0b9dfa3b78",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.*",
+                "satooshi/php-coveralls": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MimeType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kat Zien"
+                }
+            ],
+            "description": "A PHP library to detect the mime type of files.",
+            "homepage": "https://github.com/katzien/PhpMimeType",
+            "keywords": [
+                "mimetype",
+                "php"
+            ],
+            "time": "2017-03-23T02:05:33+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "e5900c38147d13f0aa9072aaff7ff0f8dbb253f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e5900c38147d13f0aa9072aaff7ff0f8dbb253f3",
+                "reference": "e5900c38147d13f0aa9072aaff7ff0f8dbb253f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/log": "^1.0.1"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "^1.4.2",
+                "jakub-onderka/php-parallel-lint": "^0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpspec/prophecy": "^1.6.1",
+                "phpunit/phpunit": "^6.5",
+                "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2018-06-19T07:22:38+00:00"
+        },
+        {
+            "name": "mpdf/mpdf",
+            "version": "v7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpdf/mpdf.git",
+                "reference": "800a7f9d93474988cc2ffb8c155497ca5910fb09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/800a7f9d93474988cc2ffb8c155497ca5910fb09",
+                "reference": "800a7f9d93474988cc2ffb8c155497ca5910fb09",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "myclabs/deep-copy": "^1.7",
+                "paragonie/random_compat": "^1.4|^2.0",
+                "php": "^5.6 || ~7.0.0 || ~7.1.0 || ~7.2.0",
+                "psr/log": "^1.0",
+                "setasign/fpdi": "1.6.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.0",
+                "squizlabs/php_codesniffer": "^2.7.0",
+                "tracy/tracy": "^2.4"
+            },
+            "suggest": {
+                "ext-bcmath": "Needed for generation of some types of barcodes",
+                "ext-xml": "Needed mainly for SVG manipulation",
+                "ext-zlib": "Needed for compression of embedded resources, such as fonts"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-development": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mpdf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Matěj Humpál",
+                    "role": "Developer, maintainer"
+                },
+                {
+                    "name": "Ian Back",
+                    "role": "Developer (retired)"
+                }
+            ],
+            "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
+            "homepage": "https://mpdf.github.io",
+            "keywords": [
+                "pdf",
+                "php",
+                "utf-8"
+            ],
+            "time": "2018-07-02T14:26:48+00:00"
+        },
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
+            "require-dev": {
+                "doctrine/collections": "^1.0",
+                "doctrine/common": "^2.6",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                },
+                "files": [
+                    "src/DeepCopy/deep_copy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2018-06-11T23:09:50+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2018-07-04T16:31:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-04-03T15:59:15+00:00"
+        },
+        {
+            "name": "serkin/volan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serkin/volan.git",
+                "reference": "0c29f5841959a7604b9e34fd9d16302466370cd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serkin/volan/zipball/0c29f5841959a7604b9e34fd9d16302466370cd9",
+                "reference": "0c29f5841959a7604b9e34fd9d16302466370cd9",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "*",
+                "php": ">=7.0|>=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "*",
+                "phpunit/phpunit": "~4.8|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Volan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serkin Alexander",
+                    "email": "serkin.alexander@gmail.com",
+                    "homepage": "http://linkedin.com/in/SerkinAlexander",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP array schema validator",
+            "homepage": "https://github.com/serkin/volan",
+            "keywords": [
+                "php",
+                "validation"
+            ],
+            "time": "2018-06-19T09:43:42+00:00"
+        },
+        {
+            "name": "setasign/fpdi",
+            "version": "1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Setasign/FPDI.git",
+                "reference": "a6ad58897a6d97cc2d2cd2adaeda343b25a368ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Setasign/FPDI/zipball/a6ad58897a6d97cc2d2cd2adaeda343b25a368ea",
+                "reference": "a6ad58897a6d97cc2d2cd2adaeda343b25a368ea",
+                "shasum": ""
+            },
+            "suggest": {
+                "setasign/fpdf": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
+                "setasign/fpdi-fpdf": "Use this package to automatically evaluate dependencies to FPDF.",
+                "setasign/fpdi-tcpdf": "Use this package to automatically evaluate dependencies to TCPDF."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "filters/",
+                    "fpdi.php",
+                    "fpdf_tpl.php",
+                    "fpdi_pdf_parser.php",
+                    "pdf_context.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Slabon",
+                    "email": "jan.slabon@setasign.com",
+                    "homepage": "https://www.setasign.com"
+                }
+            ],
+            "description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents and use them as templates in FPDF. Because it is also possible to use FPDI with TCPDF, there are no fixed dependencies defined. Please see suggestions for packages which evaluates the dependencies automatically.",
+            "homepage": "https://www.setasign.com/fpdi",
+            "keywords": [
+                "fpdf",
+                "fpdi",
+                "pdf"
+            ],
+            "time": "2017-05-11T14:25:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "carlosroberto555/expressphp": 20,
+        "carlosroberto555/prop-types": 20,
+        "serkin/volan": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,3 @@
+Nome; idade; sexo; CI;
+Nome1; idade1; sexo1; CI1;
+Nome2; idade2; sexo2; CI2;

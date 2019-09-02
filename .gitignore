@@ -1,0 +1,12 @@
+mpdf60
+arquivos_clientes_importacao
+arquivos_retorno
+branches
+boletos/vendor
+font-awesome
+nbproject
+/vendor/
+/logos_empresas/
+boletos/log
+Thumbs.db
+/composer.phar

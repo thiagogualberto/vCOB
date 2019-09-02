@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="templates/cobranca.css">
+	<title>Cobranças</title>
+</head>
+<body>
+	<htmlpageheader name="header">
+		<table class="header">
+			<tr class="info">
+				<td colspan="1" class="td_logo">
+					<img class="logo" src="#header_logo#">
+				</td>
+				<td colspan="6" class="text-right">
+					<p>#header_empresa#</p>
+					<p>CNPJ: #header_cnpj#</p>
+					<p>#header_email#</p>
+					<p>#header_tel#</p>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="7" class="title">
+					RELATÓRIO FINANCEIRO ‒ PERÍODO: #inicio# à #fim#
+				</th>
+			</tr>		
+		</table>
+	</htmlpageheader>
+	<sethtmlpageheader name="header" show-this-page="1" />
+
+	<htmlpagefooter name="footer">
+		<table class="footer">
+			<tr>
+				<td>
+					<p>#address#</p>
+					<p>#cep# ‒ #city# ‒ #state#</p>
+				</td>
+				<td>
+					<p>Sistema VCob</p>
+					<p>Uma solução Vertex Tecnologia</p>
+				</td>
+				<td class="text-right">
+					<p>Página: {PAGENO} de {nbpg}</p>
+					<p>Emitido por #user# em {DATE d/m/Y à\s H:i}</p>
+				</td>
+			</tr>
+		</table>
+	</htmlpagefooter>
+	<sethtmlpagefooter name="footer" />
+
+	<table class="table table-striped relatorio">
+		<thead>
+			<tr style="background: #f2f2f2">
+				<th>Cliente</th>
+				<th>Emissão</th>
+				<th>Valor Emissão</th>
+				<th>Vencimento</th>
+				<th>Pagamento</th>
+				<th>Valor Pago</th>
+				<th>Baixa</th>
+			</tr>
+		</thead>
+		<tbody>
+			@each cobrancas
+			<tr>
+				<td width="32%" class="text-left">#cliente#</td>
+				<td>#emisao#</td>
+				<td>#vl_emissao#</td>
+				<td>#vencimento#</td>
+				<td>#pagamento#</td>
+				<td>#vl_pagamento#</td>
+				<td>#baixa#</td>
+			</tr>
+			@end
+			<tr>
+				<td colspan="7" class="total">
+					<p><strong>Total pago: </strong>#total_pago#</p>
+					<p><strong>Total a receber: </strong>#total_receber#</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
